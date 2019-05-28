@@ -3,11 +3,9 @@ import sys
 import json
 import re
 import os
-import pathlib
 import winreg
 
-# import csv
-from registry import foo
+from registry import foo	# Searches installed app through registry
 from pprint import pprint as pp
 from win32com.client import GetObject
 
